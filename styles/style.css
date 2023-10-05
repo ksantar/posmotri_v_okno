@@ -194,6 +194,10 @@ ol {
   cursor: pointer;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__video-card-title {
   color: #fff;
   font-family: Oswald, Arial, sans-serif;
@@ -213,10 +217,6 @@ ol {
   align-items: flex-start;
   justify-content: space-between;
   word-break: break-all;
-}
-
-.content__card-link_current {
-  background: #545050;
 }
 
 .content__card-link:hover {
